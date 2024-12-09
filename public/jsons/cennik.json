@@ -1,0 +1,198 @@
+{
+    "products": [
+            {
+                "nazwa": "Bruschetta",
+                "cena": 30,
+                "kategoria": "Przystawki"
+            },
+            {
+                "nazwa": "Caprese",
+                "cena": 30,
+                "kategoria": "Przystawki"
+            },
+            {
+                "nazwa": "Deska Serów i Wędlin",
+                "cena": 30,
+                "kategoria": "Przystawki"
+            },
+
+
+            {
+                "nazwa": "Risotto z Grzybami",
+                "cena": 40,
+                "kategoria": "Dania Główne"
+            },
+            {
+                "nazwa": "Lasagna",
+                "cena": 40,
+                "kategoria": "Dania Główne"
+            },
+            {
+                "nazwa": "Mac N' Cheese",
+                "cena": 40,
+                "kategoria": "Dania Główne"
+            },
+            {
+                "nazwa": "Spaghetti",
+                "cena": 40,
+                "kategoria": "Dania Główne"
+            },
+
+
+            {
+                "nazwa": "Kawałek Margherity",
+                "cena": 50,
+                "kategoria": "Pizze"
+            },
+            {
+                "nazwa": "Kawałek Prosciutto",
+                "cena": 55,
+                "kategoria": "Pizze"
+            },
+            {
+                "nazwa": "Kawałek Vegetariany",
+                "cena": 60,
+                "kategoria": "Pizze"
+            },
+            {
+                "nazwa": "Cała Margherita",
+                "cena": 300,
+                "kategoria": "Pizze"
+            },
+            {
+                "nazwa": "Cała Prosciutto",
+                "cena": 340,
+                "kategoria": "Pizze"
+            },
+            {
+                "nazwa": "Cała Vegetariana",
+                "cena": 380,
+                "kategoria": "Pizze"
+            },
+
+
+            {
+                "nazwa": "Tiramisu",
+                "cena": 25,
+                "kategoria": "Desery"
+            },
+            {
+                "nazwa": "Tortino al Cioccolato",
+                "cena": 25,
+                "kategoria": "Desery"
+            },
+
+            
+            {
+                "nazwa": "Oranżada Truskawkowa",
+                "cena": 30,
+                "kategoria": "Napoje"
+            },
+            {
+                "nazwa": "Oranżada Limonkowa",
+                "cena": 30,
+                "kategoria": "Napoje"
+            },
+
+
+            {
+                "nazwa": "Lampka Wina",
+                "cena": 40,
+                "kategoria": "Alkohole"
+            },
+            {
+                "nazwa": "Szklanka Whiskey",
+                "cena": 55,
+                "kategoria": "Alkohole"
+            },
+
+
+            {
+                "nazwa": "Kawa Espresso",
+                "cena": 20,
+                "kategoria": "Kawy"
+            },
+            {
+                "nazwa": "Kawa Cappuccino",
+                "cena": 20,
+                "kategoria": "Kawy"
+            },
+            {
+                "nazwa": "Kawa Latte",
+                "cena": 20,
+                "kategoria": "Kawy"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Dolce e Caffè",
+                "cena": 70,
+                "items": [
+                    { "nazwa": "Tiramisu", "quantity": 1 },
+                    { "nazwa": "Kawa Cappuccino", "quantity": 1 }
+                ]
+            },
+            {
+                "name": "Colazione con dessert",
+                "cena": 70,
+                "items": [
+                    { "nazwa": "Bruschetta", "quantity": 1 },
+                    { "nazwa": "Tortino al Cioccolato", "quantity": 1 },
+                    { "nazwa": "Kawa Latte", "quantity": 2 }
+                ]
+            },
+            {
+                "name": "Cena Romantica",
+                "cena": 130,
+                "items": [
+                    { "nazwa": "Spaghetti", "quantity": 2 },
+                    { "nazwa": "Lampka Wina", "quantity": 2 }
+                ]
+            },
+            {
+                "name": "Gusto Vegetariano",
+                "cena": 144,
+                "items": [
+                    { "nazwa": "Kawałek Vegetariany", "quantity": 2 },
+                    { "nazwa": "Oranżada Truskawkowa", "quantity": 2 }
+                ]
+            },
+            {
+                "name": "Degustazione Classica",
+                "cena": 240,
+                "items": [
+                    { "nazwa": "Deska Serów i Wędlin", "quantity": 1 },
+                    { "nazwa": "Kawałek Margherity", "quantity": 1 },
+                    { "nazwa": "Szklanka Whiskey", "quantity": 2 }
+                ]
+            },
+            {
+                "name": "Pizza e Aranciata",
+                "cena": 350,
+                "items": [
+                    { "nazwa": "Kawałek Vegetariany", "quantity": 4 },
+                    { "nazwa": "Oranżada Limonkowa", "quantity": 4 }
+                ]
+            },
+            {
+                "name": "Pranzo Rustico",
+                "cena": 420,
+                "items": [
+                    { "nazwa": "Cała Margherita", "quantity": 1 },
+                    { "nazwa": "Kawa Latte", "quantity": 1 },
+                    { "nazwa": "Oranżada Limonkowa", "quantity": 7 }
+                ]
+            },
+            {
+                "name": "Set da Troia (PD)",
+                "cena": 350,
+                "items": [
+                    { "nazwa": "Kawałek Margherity", "quantity": 6 },
+                    { "nazwa": "Oranżada Truskawkowa", "quantity": 2 },
+                    { "nazwa": "Oranżada Limonkowa", "quantity": 2 },
+                    { "nazwa": "Kawa Latte", "quantity": 2 }
+                ]
+            }
+        ]
+    }
+    

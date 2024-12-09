@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Leche Cosa - Menu</title>
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="icon" href="/ico/pizza.ico" type="image/x-icon"/>
+    <meta content="Barra de Leche Cosa" property="og:title" />
+    <meta content="Włoski Bar przy Plaży Vespucci z Włoską Kuchnią." property="og:description" />
+    <meta content="https://bar.dafciu.pl" property="og:url" />
+    <meta content="https://bar.dafciu.pl/png/pizza.png" property="og:image" />
+    <meta content="#e67e22" data-react-helmet="true" name="theme-color" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <h1>Barra de Leche Cosa</h1>
+        </div>
+        <div class="nav-right">
+            <button id="contact-btn" class="contact-btn">Kontakt</button>
+            <a href="/auth/discord" class="login-btn">Logowanie</a>
+        </div>
+    </nav>
+    <div id="contact-form-container" style="display: none;">
+        <div class="form-overlay"></div>
+        <div class="form-content">
+            <h2>Formularz Zgłoszeniowy</h2>
+            <form id="contact-form" autocomplete="off">
+                <label for="full-name">Imię i Nazwisko:</label>
+                <input type="text" id="full-name" name="fullName" autocomplete="off" required >
+    
+                <label for="phone-number">Numer Telefonu:</label>
+                <input type="tel" id="phone-number" name="phoneNumber" autocomplete="off" required >
+    
+                <label for="reason">Powód kontaktu:</label>
+                <select id="reason" name="reason" autocomplete="off" required>
+                    <option value="" disabled selected>Wybierz powód</option>
+                    <option value="pytanie">Pytanie</option>
+                    <option value="reklamacja">Reklamacja</option>
+                    <option value="skarga">Skarga</option>
+                    <option value="biznes">Sprawa Biznesowa</option>
+                    <option value="inne">Inne</option>
+                </select>
+    
+                <label for="description">Opis:</label>
+                <textarea id="description" name="description" rows="4" autocomplete="off" required></textarea>
+    
+                <div class="form-actions">
+                    <button type="submit" class="submit-btn">Wyślij</button>
+                    <button type="button" class="close-btn">Anuluj</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="menu-container">
+        <div id="menu-content"></div>
+    </div>
+    <script src="/js/menu.js"></script>
+</body>
+</html>
